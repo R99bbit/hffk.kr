@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'YiSunShinDotumM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YiSunShinDotumM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: black;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+}
+.showcase {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.content {
+    font-family: 'YiSunShinDotumM';
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    background-image: url("../images/logo-back.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-container {
+    font-family: 'YiSunShinDotumM';
+    font-size: x-large;
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    width: 40px;
+    margin: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}

@@ -1,0 +1,46 @@
+/* 모든 페이지 상단에 위치한 내비게이션 바의 스타일을 정의한다. */
+@font-face {
+    font-family: 'YiSunShinDotumM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YiSunShinDotumM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    font-family: 'YiSunShinDotumM';
+    font-size: medium;
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 100px;
+}
+
+.banner {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 1400px) {
+    .navbar li {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
